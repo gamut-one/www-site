@@ -1,0 +1,47 @@
+html, body, tr, td {
+    font-family: input-mono, monospace;
+    font-size: 1em;
+}
+
+div#logo {
+    text-align: center;
+}
+
+pre#logo {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+}
+
+div#main {
+    width: 80ch;
+    margin: 0 auto;
+}
+
+li {
+    position: relative;
+    list-style: none;
+}
+
+li:before {
+    content: "*";
+    position: absolute;
+    left: -15px;
+}
+
+input, textarea {
+    font-family: input-mono, monospace;
+    width: 100%;
+    border: 0;
+}
+
+table {
+    text-align: left;
+    width: 100%;
+    padding: 5px;
+}
