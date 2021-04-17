@@ -1,5 +1,5 @@
-html, body, tr, td {
-    background-color: #0C0C0C;
+html, input, textarea {
+    background-color: black;
     color: #CCCCCC;
 }
 
@@ -7,24 +7,26 @@ b, a, a:link, a:visited, a:active, h3 {
     color: #F2F2F2;
 }
 
-pre#logo {
-    color: #F2F2F2;
-}
-
 a:hover {
     color: #F9F1A5;
 }
 
-hr {
-    background: #767676;
-}
-
-input, textarea {
-    background-color: #0C0C0C;
-    color: #CCCCCC;
+input, textarea, table {
     border: 1px solid #767676;
 }
 
-table {
-    border: 1px solid #767676;
+@media screen and (prefers-color-scheme: light) {
+    html, input, textarea {
+        background-color: white;
+        color: black;
+    }
+    b, a, a:link, a:visited, a:active, h3 {
+        color: black;
+    }
+    a:hover {
+        color: gray;
+    }
+    input, textarea, table {
+        border: 1px solid black;
+    }
 }
