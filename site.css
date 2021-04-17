@@ -28,12 +28,14 @@ li {
     list-style: none;
 }
 
-ul {
-    padding-inline-start: 0px;
+li:before {
+    content: "➤";
+    position: absolute;
+    left: -15px;
 }
 
-a:before {
-    content: "=> ";
+ul {
+    padding-inline-start: 0px;
 }
 
 input, textarea {
