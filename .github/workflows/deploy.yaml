@@ -17,6 +17,4 @@ jobs:
           port: 22
           script: |
             cd /var/www/gamut.one
-            sudo umask
-            sudo git reset --hard
-            sudo git pull
+            sudo git config pull.ff only && umask 0022 && git reset --hard && git pull
