@@ -10,7 +10,7 @@ div#logo {
 pre#logo {
     display: inline-block;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1em;
 }
 
 hr {
@@ -19,7 +19,7 @@ hr {
 }
 
 div#main {
-    width: 80ch;
+    width: 70ch;
     margin: 0 auto;
 }
 
@@ -28,10 +28,12 @@ li {
     list-style: none;
 }
 
-li:before {
-    content: "*";
-    position: absolute;
-    left: -15px;
+ul {
+    padding-inline-start: 0px;
+}
+
+a:before {
+    content: "=> ";
 }
 
 input, textarea {
