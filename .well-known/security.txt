@@ -1,0 +1,5 @@
+Contact: hostmaster@dimension.sh
+Expires: Sat, 1 Jan 2022 00:00 +0100
+Encryption: https://gamut.one/.well-known/gpg-key.txt
+Preferred-Languages: en
+Canonical: https://gamut.one/.well-known/security.txt
