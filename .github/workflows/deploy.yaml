@@ -16,5 +16,4 @@ jobs:
           key: ${{ secrets.GAMUT_ONE_DEPLOYMENT_SSH_KEY }}
           port: 22
           script: |
-            cd /var/www/gamut.one
-            sudo cd /var/www/gamut.one && git config pull.ff only && umask 0022 && git reset --hard && git pull
+            sudo "cd /var/www/gamut.one && git config pull.ff only && umask 0022 && git reset --hard && git pull"
